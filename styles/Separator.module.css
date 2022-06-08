@@ -1,0 +1,17 @@
+.separator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .separator > * {
+    color: #444;
+  }
+  
+  .separatorFirstLine, .separatorLastLine {
+    width: 50%;
+  }
+  
+  .separatorText{
+    margin: 1rem;
+  }

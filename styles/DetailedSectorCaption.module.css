@@ -1,0 +1,21 @@
+.captionColor{
+  width: 32px;
+  height: 32px;
+  background-color: red;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.captionGroup{
+  padding: 1rem 0 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.captionText{
+  color: #444;
+  padding-left: 1rem;
+}
+
