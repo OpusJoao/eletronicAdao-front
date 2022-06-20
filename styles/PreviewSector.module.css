@@ -1,7 +1,7 @@
 .previewSector{
   width: 100%;
   height: 400px;
-  background-color: #E5E5E5;
+  background-color: silver;
   display: flex;
   flex-direction: column;
 }

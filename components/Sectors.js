@@ -6,7 +6,7 @@ export default function Sectors({sectors}){
         <div className={styles.sectors}>
         {sectors.map(value => {
           return (
-          <div className={styles.sector}>
+          <div className={styles.sector} style={{backgroundColor: value.color}}>
             <h1>{value.number}</h1>
           </div>
           )

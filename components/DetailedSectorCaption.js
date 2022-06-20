@@ -6,7 +6,7 @@ export default function DetailedSectorCaption({captions}){
           {captions.map((value)=>{
             return (
               <div className={styles.captionGroup}>
-              <div className={styles.captionColor}></div>
+              <div className={styles.captionColor} style={{backgroundColor: value.color}}></div>
               <div className={styles.captionText}>{value.text}</div>
             </div>
             )
